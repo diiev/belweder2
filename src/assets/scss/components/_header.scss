@@ -1,0 +1,21 @@
+.header {
+    padding-top: 15px;
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+    &__icons {
+        margin-left: auto;
+
+    }
+   
+  
+    .logo {
+        margin-left:30px;
+      //  margin-top: 6px;
+        img {
+            width: 135px;
+        }
+    }
+
+}

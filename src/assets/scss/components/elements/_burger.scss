@@ -1,0 +1,59 @@
+.burger {
+    position: relative;
+    width: 24px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.burger span {
+    position: absolute;
+    background-color: $text-colorMain;
+    width: 100%;
+    height: 2px;
+    top: 7px;
+    left: 0;
+    transition: all .4s ease 0s;
+   
+}
+
+.burger::before,
+.burger:after {
+    content: '';
+    background-color: $text-colorMain;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all .4s ease 0s;
+}
+
+.burger::before {
+    top: 0
+}
+
+.burger:after {
+    bottom: 0;
+    width: 80%;
+}
+
+.burger {
+    &__active:before {
+        transform: rotate(45deg);
+        top: 5px
+    }
+}
+
+
+.burger {
+    &__active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        width: 100%;
+    }
+}
+
+.burger {
+    &__active span {
+        display: none
+    }
+}

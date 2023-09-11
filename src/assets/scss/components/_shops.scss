@@ -1,0 +1,11 @@
+.shops {
+    margin-top: 35px;
+    margin-left: 27px;
+ 
+    img {
+        vertical-align: middle;
+        &:nth-child(1) {
+            margin-right: 25px;
+        }
+    }
+}

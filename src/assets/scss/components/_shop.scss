@@ -1,0 +1,15 @@
+.shop {
+    padding-top: 70px;
+    &__link {
+        margin-top: 20px;
+        color: $text-colorPrimary;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+    }
+}

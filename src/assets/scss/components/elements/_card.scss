@@ -1,0 +1,74 @@
+.card {
+    max-width: 308px;
+    margin: 0 auto;
+    position: relative;
+    &__action {
+        position: absolute;
+        right: 0;
+        top: 18px;
+        padding: 4px 6px;
+        background: #FF4820;
+        width: 48px;
+        height: 26px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        z-index: 999;
+    }
+    &__img {
+        display: block;
+        width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    &__text {
+        margin-top: 8px;
+        text-align: center;
+        font-style: normal;
+      
+    }
+    &__title {
+        display: block;
+        height: 30px;
+        overflow: hidden;
+        color:$text-colorPrimary;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 113.9%; /* 14.807px */
+        letter-spacing: 0.13px;
+    }
+    &__descr {
+        height: 45px;
+        overflow: hidden;
+        margin-top: 8px;
+        color: #8D837D;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 130%; /* 13px */
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+    }
+    &__price {
+        margin-top: 8px;
+        color:$text-colorPrimary;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 22.4px */
+        letter-spacing: 0.28px;
+        height: 45px;
+        overflow: hidden;
+     &-old {
+        text-decoration: line-through;
+     } 
+
+    }
+    &__btn {
+        display: block;
+        margin: 12px auto 0 auto;
+    }
+}

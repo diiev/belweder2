@@ -1,0 +1,44 @@
+.peptides {
+    padding-top: 83px;
+     &__container {
+        padding: 0;
+     }
+    &__inner {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    &__left {
+        margin-top: 38px;
+    }
+    &__right {
+      
+        img {
+            display: block;
+            width: 100%;
+            max-height: 100%;
+        }
+    }
+    &__descr {
+        margin-top: 12px;
+        color:  #8D837D;
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 134.5%; /* 17.485px */
+        letter-spacing: 0.65px;
+        text-transform: uppercase;
+    }
+    &__cards {
+        border-top: 1px solid #E7E4E1;
+        padding-top: 40px;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(177px, 282px));
+        column-gap: 12px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+  
+}

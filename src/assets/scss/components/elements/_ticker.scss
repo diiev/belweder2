@@ -1,0 +1,47 @@
+.ticker {
+    padding: 17px 0px;
+    background: linear-gradient(180deg, #DAC0B1 0%, #E7B9AB 100%);
+    color: #fff;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 70px;
+    &__items {
+        flex-shrink: 0;
+        display: flex;
+        gap: 70px;
+        counter-reset: ticker__item;
+        min-width: 100%;
+    }
+    &__item { 
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center; 
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        gap: 10px;
+        span {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        }
+        &_20 {
+        font-size: 37.901px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.327px;
+        text-transform: uppercase; 
+        span {
+            font-size: 15px;
+        }
+        }
+    }
+}

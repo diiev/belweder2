@@ -1,0 +1,75 @@
+.btn { 
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: 1px solid  $text-colorMain; 
+    color: $text-colorMain;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    transition: all .3s ease-out;
+    &_brown {
+        padding: 10px 25px;
+        background: $secondColor;
+        color: #fff;
+        line-height: 180%; /* 27px */
+        outline:  none;
+        border: none;
+        text-transform: capitalize;
+    }
+  
+    &__bottom {
+        &-link {
+            margin-top: 16px;
+            display: block;
+            width: 100%;
+            padding: 13px 0px;
+            background: $secondColor;
+            color: #fff;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.9px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    &_arrow {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        border-radius: 26.087px;
+        padding: 14px;
+        border: 1px solid $secondColor;
+        transition: all .3s ease-out;
+        cursor: pointer;
+          svg {
+            path {
+                transition: all .3s ease-out;
+            }
+          }
+        &:hover {
+        background: $secondColor;
+        svg {
+            path {
+                stroke: #fff;
+            }
+        }
+        }
+    }
+    &_up {
+        position: fixed;
+        right: 60px;
+        bottom: 60px;
+        transition: all .3s ease-out;
+        opacity: 0;
+        svg {
+            transform: rotate(-90deg);
+        }
+    }
+}

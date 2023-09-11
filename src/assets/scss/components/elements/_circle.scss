@@ -1,0 +1,43 @@
+.circles {
+    margin-top: 51px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 174px);
+    justify-content: center;
+    column-gap: 12px;
+    row-gap: 58px;
+
+    .circle {
+        text-align: center;
+        color: $text-colorMain;
+        font-style: normal;
+        &__link {
+            display: block;
+           
+        } 
+        &__img {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 100%;
+           
+        }
+        &__title {
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 85.1%; /* 13.616px */
+            letter-spacing: 0.48px;
+            text-transform: uppercase;
+        }
+        &__dot {
+            display: none;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 110%; /* 15.4px */
+            letter-spacing: 0.28px;
+        }
+    }
+}

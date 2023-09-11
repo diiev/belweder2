@@ -1,0 +1,121 @@
+@media (min-width:768px) {
+    .container {
+        padding: 0 32px;
+    } 
+    .shops {
+       display: flex;
+       align-items:center
+    }
+    .menu__footer-contacts {
+        display: flex;
+        gap: 35px;
+        margin-left: auto;
+        padding: 0 20px;
+       
+    }
+   
+    .menu__footer-btn {
+        padding: 7px 15px;
+        text-transform: none;
+    } 
+    .musthave {
+        padding-top: 90px;
+    }
+    .shop {
+        padding-top: 108px;
+    }
+    .peptides {
+        padding-top: 100px;
+    }
+    .offer {
+        padding-top: 140px;
+    }
+    .consultaion {
+        margin-top: 100px;
+        padding: 0 23px 0 23px;
+        &__container {
+            padding: 100px 105px;
+        }
+        .form {
+            
+            display: flex;
+            gap: 10px;
+        }
+    }
+    .gifts {
+        &__slider {
+            &-item {
+                height:561px;
+            }
+        }
+    }
+    .circles {
+        grid-template-columns: repeat(3,174px);
+        column-gap: 70px;
+    }
+    .footer {
+        position: relative;
+        &__container {
+           display: block;
+        }
+      
+        &__subscribe {
+          display: none;
+          &-desk {
+            display: flex;
+            justify-content: flex-start;
+            gap: 17px;
+            margin-top: 10px;
+          }
+        
+        } 
+        .menu {
+            &__items {
+                display: flex;
+               justify-content: space-between;
+              
+               div {
+                display: flex;
+                width: 38%;
+                justify-content: space-between;
+               }
+            }
+            &__item {
+                border: none;
+                padding: 0;
+               
+            }
+            &__item:last-child {
+                border: none;
+            }
+            .submenu__items {
+                margin-left: 0;
+                opacity: 1 !important;
+                visibility: visible !important;
+                max-height: 100% !important;
+            }
+            .submenu__item {
+                text-align: left;
+               
+            }
+            .plus {
+                display: none;
+            }
+        }
+        &__discount {
+            margin-top: 83px;
+            text-align: left;
+            padding: 0 12px 0 0;
+            width: 400px;
+        }
+        &__form {
+            justify-content: flex-start;
+        }
+        &__icon {
+           position: absolute;
+           padding: 0;
+           right: 20px;
+           top: 80%;
+        }
+    }
+}

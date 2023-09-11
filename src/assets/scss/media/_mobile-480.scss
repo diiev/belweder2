@@ -1,0 +1,35 @@
+@media (min-width:480px) {
+    .header {
+        .logo {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .gifts {
+        &__slider {
+            &-item {
+                height: 320px;
+            }
+        }
+    }
+  
+    .circles {
+        grid-template-columns: repeat(2,174px);
+        column-gap: 40px;
+    }
+    .peptides__container {
+        padding: 0 12px;
+    }
+    .consultaion {
+        margin-top: 80px; 
+        &__container {
+            padding: 60px 90px;
+        }
+    }
+
+  
+    .footer__discount {
+        padding: 0 75px;
+    }
+}

@@ -1,0 +1,75 @@
+.carts {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  
+    &__price {
+        color:  $text-colorMain;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__user {
+        width:15px;
+        position: relative;
+        cursor: pointer;
+        
+    }
+    &__basket {
+        width: 24px;
+    }
+    &__tolips {
+        position: absolute;
+        padding-top: 60px; 
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -99;
+       top: 0px;
+       left: -50%;
+       transform: translateX(-50%); 
+       transition: opacity .3s ease-out;
+    }
+    &__tolip {
+        background: #fff;
+        box-shadow: 0px 4px 20px 0px rgba(94, 80, 71, 0.03);
+        display: flex;
+        width: 240px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        &-btn {
+            width: 100%;
+        }
+        &-link {
+            display: block;
+            color: $text-colorPrimary;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 180%; /* 27px */
+            letter-spacing: 0.3px;
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+        &-divider {
+            height: 1px;
+            width: 100%;
+            background:#E7E4E1;
+        }
+        &-gifts {
+            display: flex;
+            align-items: center;
+            gap: 10px; 
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 180%; /* 27px */
+            letter-spacing: 0.3px;
+            color: $text-colorPrimary;
+            svg {
+                margin-top: -4px;
+            }
+        }
+    }
+}

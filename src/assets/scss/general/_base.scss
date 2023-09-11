@@ -1,0 +1,33 @@
+* {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    font-size: 15px;
+    
+ 
+} 
+
+a {
+    text-decoration: none;
+}
+
+.container {
+  //  max-width: 1170px;
+    padding:  0px 10px;
+ //   margin: 0 auto;
+   // position: relative;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body__pr {
+    overflow: hidden;
+    padding-right: 17px;
+}

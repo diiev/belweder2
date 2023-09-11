@@ -1,0 +1,10 @@
+@media (max-width:389px) {
+
+    .peptides__cards { 
+      grid-template-columns:  minmax(177px, 282px);
+    }
+}
+@import './mobile-480';
+@import './tablet-768';
+@import './tablet-1024';
+@import './desktop';

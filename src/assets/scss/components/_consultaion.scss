@@ -1,0 +1,83 @@
+.consultaion {
+    margin-top: 60px;
+    padding: 60px 0px 0 0;
+    &__container {
+        padding: 60px 45px;
+        background: url('../img/consultaion_bg.jpg')   no-repeat center / cover;
+    }
+    &__title {
+        color: $text-colorPrimary;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105.3%; /* 31.59px */
+    }
+    &__descr {
+        margin-top: 16px;
+        color: $text-colorPrimary;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 132%; /* 19.8px */
+        letter-spacing: 0.3px;
+    }
+    &__form {
+        margin-top: 28px;
+
+    }
+    .form {
+        &__input {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 8px;
+            width: 237px;
+            height: 46px;
+            border-radius: 54px;
+            background: #FFF;
+            border: none;
+            outline: none;
+            color: $text-colorPrimary;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 120%; /* 18px */
+            letter-spacing: 0.3px;
+            padding: 14px 20px;
+        }
+        &__submit {
+            display: block;
+            margin: 0 auto 16px auto;
+        }
+    }
+    &__policy {
+        color:$text-colorPrimary;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.5%; /* 18.06px */
+        letter-spacing: 0.24px; 
+        a {
+            color:$text-colorPrimary;
+            opacity: 0.7;
+            text-decoration-line: underline;
+        }
+    }
+    &__question {
+        margin-top: 36px;
+        color:$text-colorPrimary;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 21px */
+        letter-spacing: 0.3px;
+        a {
+        color:$text-colorPrimary;
+        letter-spacing: 0.3px;
+        text-decoration-line: underline;
+        }
+    }
+}

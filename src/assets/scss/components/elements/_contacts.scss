@@ -1,0 +1,23 @@
+.contacts {
+    display: none;
+    gap: 17px;
+    margin-left: 73px;
+    &__btn {
+        padding: 7px 15px;
+        text-transform: none;
+    }
+    a {
+        color: $text-colorMain;
+    }
+    &__phone {
+        font-size: 18px;
+        font-weight: 600;
+        div {
+            font-weight: 300;
+            font-size: 12px;
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}

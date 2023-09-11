@@ -1,0 +1,35 @@
+.plus {
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 1px;
+    right: 0px;
+    top: 5px;
+    background: $text-colorMain;
+    &::before {
+        display: block;
+        content: '';
+        width: 17px;
+        height: 1px;
+        transform: rotate(90deg);
+        background: $text-colorMain;
+        transition: all .3s ease-out;
+        
+    }
+    &__active {
+        &::before {
+            transform: rotate(0deg);
+        }
+    }
+}
+
+.submenu__items {
+    .plus {
+        width: 13px;
+        &::before { 
+            width: 13px;
+        }
+    }
+  
+
+}

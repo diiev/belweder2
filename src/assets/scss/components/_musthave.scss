@@ -1,0 +1,80 @@
+.musthave {
+    padding-top: 50px;
+    &__container {
+       position: relative;
+    }
+    &__tabs {
+        margin-top: 45px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #B5ACA6;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+      
+    } 
+    &__tab {
+        position: relative;
+        cursor: pointer;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        text-transform: uppercase;    
+        &-active {
+            color: $text-colorPrimary;
+            &::after {
+                position: absolute;
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1px;
+                margin-top: 3px;
+                background: $text-colorPrimary;
+            }
+        }
+    }
+    &__slider { 
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+          &-wrapper {
+            margin-top: 70px; 
+          }
+    } 
+   .tns-nav { 
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 32px;
+ } 
+ .slider__btns {
+    width: 100%;
+    span {
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        top: 30%;
+        cursor: pointer;
+        z-index: 1;
+        transition: all .3s ease-out;
+    }
+    .next  {
+       right: -40px;
+    }
+    .prev {
+        left: -40px;
+        transform: translateY(-30%) rotate(-180deg);
+    }
+    .next {
+        transform: translateY(-30%) rotate(0deg);
+    }
+    
+    span[aria-disabled="true"] {
+        opacity: 0;
+        visibility: hidden;
+    }
+ }
+ }
