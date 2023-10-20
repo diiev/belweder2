@@ -537,5 +537,134 @@
     }
 
 
-  
+    .popup {
+      
+      
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 59px 117px;
+    
+    }
+    &__close {
+        top: 0px;
+        right:  14px;
+        font-size: 60px;
+    
+    }
+    &__title {
+        font-size: 40px;
+    }
+    &__descr {
+       
+        font-size: 15px;
+    }
+    
+    &__input {
+      input {
+        width: 246px;
+        height: 46px;
+        padding: 15px 20px;
+        border-radius: 54px;
+        background: #fff;
+      }
+    }
+    &__policy {
+        margin-top: 11px; 
+        font-size: 12px;
+    } 
+    &__carts {
+        display: block;
+       &-content {
+        padding: 40px 0 0 0;
+        align-items: stretch;
+        width: 1200px;
+    
+       }
+    
+       &-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        padding: 0 35px;
+       }
+       &-title {
+      
+        font-size: 32px;
+    
+       }
+       &-text {
+        margin-top: 35px;
+        font-size: 15px;
+     
+       }
+    }
+       &__cards {
+        margin-top: 30px;
+        gap: 51px;
+        justify-content: center;
+       }
+       &__card {
+        max-width: 273px;
+        padding: 20px;
+    
+        &-title {
+           
+            font-size: 12px;
+         
+        }
+        &-img {
+            padding: 14px 42px;
+        }
+      
+        &-name {
+          
+            font-size: 14px;
+      
+        }
+        &-descr {
+      
+        font-size: 12px;
+        } 
+   
+        &-price {
+          
+            font-size: 15px;
+            
+        }
+        &-link {
+           
+            font-size: 15px;
+          
+        }
+       }
+       &__btns {
+        gap:10px;
+       } 
+       .btn {
+        font-size: 15px;
+        padding: 10px 30px;
+        
+       } 
+       &__bottom {
+        font-size: 12px;
+       }
+    }
+    
+    .minicard {
+    
+        &__title {
+         
+            font-size: 15px;
+       
+        }
+        &__descr {
+
+
+            font-size: 12px;
+        
+        }
+    }
 }

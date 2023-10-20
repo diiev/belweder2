@@ -72,3 +72,27 @@
         margin: 12px auto 0 auto;
     }
 }
+
+.minicard {
+    max-width: 305px;
+    display: flex;
+    align-items:center;
+    gap: 17px;
+    text-align: left;
+    &__title {
+        color: $text-colorPrimary;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 113.9%; /* 17.085px */
+        letter-spacing: 0.15px;
+    }
+    &__descr {
+        margin-top: 4px;
+        color:  #8D837D;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+        letter-spacing: 0.36px;
+        text-transform: uppercase;
+    }
+}

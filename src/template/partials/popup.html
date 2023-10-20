@@ -21,25 +21,62 @@
 
 <div data-modal class="popup popup__carts">
    <div class="popup__dialog">
-    <div class="popup__content popup__call-content">
+    <div class="popup__content popup__carts-content">
        
          <div class="popup__header popup__carts-header">
-            <div class="popup__title popup__carts-title">Заказать звонок</div>
-            <div class="popup__cards">
-              
+            <div class="popup__title popup__carts-title">Товар добавлен в корзину</div>
+            <div class="minicard">
+              <div class="minicard__img">
+               <img src="assets/img/card-photo.jpg" alt="card-photo.jpg">
+              </div>
+              <div class="minicard__text">
+               <div class="minicard__title">Защитно-регенерирующая губная помада</div>
+               <div class="minicard__descr">с экстрактом алоэ, витамином Е и хлопковым маслом</div>
+
+              </div>
             </div>
          </div>
-      
-        <div class="popup__descr">Оставьте свои контактные данные, и мы  <br>свяжемся с Вами в ближайшее время.</div>
-
+        <div class="divider"></div>
+        <div class="popup__wrapper">
+         <div class="popup__text popup__carts-text">Дополнить уход</div>
+         <div class="popup__cards">
+          <div class="card popup__card">
+             <div class="popup__card-title">эксфолиация губ</div>
+            
+             <div class="popup__card-img"><img src="assets/img/pom1.jpg"></img></div>  
            
-               <div class="popup__input"><input required type="text" name="fio" placeholder="Имя, Фамилия"></div>
-                <div class="popup__input"><input required type="text" name="phone" placeholder="+7 (___) ___-__-__"></div>
-                <input type="submit" class="btn btn_brown" value="ЗАКАЗАТЬ">
-          
-            <div class="popup__policy">Нажимая кнопку, Вы соглашаетесь
-               <br> <a href="#">с политикой конфиденциальности.</a></div> 
-          
+                 <div class="popup__card-text">
+                     <div class="popup__card-name">ПопуляЗащитно-регенерирующая губная помада</div>
+                     <div class=" popup__card-descr">с экстрактом алоэ, витамином Е и хлопковым маслом</div>
+                 </div>
+                 <div class="popup__card-prices">
+                     <div class="card__price-new">273 ₽</div>
+                     <a class="popup__card-link" href="#">В корзину</a>
+                 </div>
+            </div> 
+            <div class="card popup__card">
+             <div class="popup__card-title">эксфолиация губ</div>
+            
+             <div class="popup__card-img"><img src="assets/img/pom1.jpg"></img></div>  
+           
+                 <div class="popup__card-text">
+                     <div class="popup__card-name">ПопуляЗащитно-регенерирующая губная помада</div>
+                     <div class=" popup__card-descr">с экстрактом алоэ, витамином Е и хлопковым маслом</div>
+                 </div>
+                 <div class="popup__card-prices">
+                     <div class="card__price-new">273 ₽</div>
+                     <a class="popup__card-link" href="#">В корзину</a>
+                 </div>
+            </div>
+         </div> 
+         <div class="popup__btns">
+          <button class="btn popup_btn">Вернуться</button>
+          <button class="btn btn_brown">СМОТРЕТЬ КОРЗИНУ</button>
+         </div>
+        </div>
+
+        <div class="popup__bottom">Cтоимость доставки уменьшается до нуля с увеличением суммы заказа</div>
+
     </div>
    </div>
 </div>
