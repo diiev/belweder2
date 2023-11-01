@@ -58,3 +58,5 @@ const card = () => {
     showImage();
 };
 export default card;
+
+

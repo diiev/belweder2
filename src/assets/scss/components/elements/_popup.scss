@@ -9,6 +9,9 @@
     &__call {
         display: none;
     }
+    &__carts {
+        display: none;
+    }
   
 &__content {
     position: fixed;
@@ -83,7 +86,6 @@
     }
 } 
 &__carts {
-    display: block;
    &-content {
     background: #fff;
     align-items: stretch;

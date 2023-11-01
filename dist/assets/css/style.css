@@ -1728,6 +1728,10 @@ a {
     display: none;
 }
 
+.popup__carts {
+    display: none;
+}
+
 .popup__content {
     position: fixed;
     background: #F9F8F7;
@@ -1803,10 +1807,6 @@ a {
 .popup__policy a {
     color: #706056;
     text-decoration: underline;
-}
-
-.popup__carts {
-    display: block;
 }
 
 .popup__carts-content {
@@ -2724,10 +2724,6 @@ a {
     .popup__policy {
         margin-top: 11px;
         font-size: 12px;
-    }
-
-    .popup__carts {
-        display: block;
     }
 
     .popup__carts-content {
