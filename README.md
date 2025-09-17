@@ -7,7 +7,7 @@
 
 ## 🔍 Превью
 
-![Демка](https://diiev.github.io/belweder2/dist/index.html)  
+[Демка](https://diiev.github.io/belweder2/dist/index.html)  
 
 > 💡 Замените пути к изображениям на свои скриншоты из папки `assets/images`.
 
